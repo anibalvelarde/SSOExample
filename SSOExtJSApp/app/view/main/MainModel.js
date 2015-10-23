@@ -13,7 +13,7 @@ Ext.define('SSOExtJSApp.view.main.MainModel', {
     formulas: {
         userName: function(){
             var userClaimsList = SSO.Security.getClaimsByResourceName('SSO.Security.ArbtWebApi');
-            return userClaimsList['http://schemas.aon.com/identity/displayname'];
+            return userClaimsList['http://[your schema name]/identity/displayname'];
         }
     }
 });

@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SSO.Security.SSOExtJSApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Aon")]
+[assembly: AssemblyCompany("SSO952")]
 [assembly: AssemblyProduct("SSO.Security.SSOExtJSApp")]
-[assembly: AssemblyCopyright("Copyright © Aon 2015")]
+[assembly: AssemblyCopyright("Copyright © SSO 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
