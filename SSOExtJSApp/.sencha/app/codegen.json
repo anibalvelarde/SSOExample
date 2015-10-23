@@ -35,23 +35,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     ".sencha/app/development.properties": {
@@ -60,23 +60,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     ".sencha/app/native.properties": {
@@ -85,23 +85,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     ".sencha/app/package.properties": {
@@ -110,23 +110,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     ".sencha/app/production.properties": {
@@ -135,23 +135,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     ".sencha/app/sencha.cfg": {
@@ -160,23 +160,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     ".sencha/app/testing.properties": {
@@ -185,23 +185,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     "index.html": {
@@ -210,23 +210,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     },
     "sass/config.rb": {
@@ -235,23 +235,23 @@
       "parameters": {
         "appControllers": "",
         "appModels": "",
-        "appName": "SSOExtJSApp",
+        "appName": "ArbtExtJSApp",
         "appStores": "",
         "appViews": "",
         "controllerFileName": "Main",
         "controllerName": "Main",
-        "controllerNamespace": "SSOExtJSApp.controller",
+        "controllerNamespace": "ArbtExtJSApp.controller",
         "frameworkName": "ext",
         "frameworkPath": "ext",
-        "modelNamespace": "SSOExtJSApp.model",
-        "name": "SSOExtJSApp",
+        "modelNamespace": "ArbtExtJSApp.model",
+        "name": "ArbtExtJSApp",
         "packagesRelPath": "ext/packages",
         "senchadir": ".sencha",
         "themeName": "default",
         "uniqueId": "bb35bc01-1745-46f8-9b3e-0c73dcb622e8",
         "viewFileName": "Main",
         "viewName": "Main",
-        "viewNamespace": "SSOExtJSApp.view"
+        "viewNamespace": "ArbtExtJSApp.view"
       }
     }
   }
