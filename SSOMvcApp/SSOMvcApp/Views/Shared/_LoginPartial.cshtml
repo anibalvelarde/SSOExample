@@ -1,0 +1,16 @@
+﻿@if (Request.IsAuthenticated)
+{
+    string adfsSignOutUrl = System.Configuration.ConfigurationManager.AppSettings["adfs:SignOutUrl"];    
+    string appLogoutUrl = adfsSignOutUrl + "&wreply=" + "https://" + HttpContext.Current.Request.Url.Host + "/Aon.Arbt.Security.ArbtMvcApp/Home";
+    
+    <text>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="navbar-text">
+                Hello, @User.Identity.Name!
+            </li>
+            <li>
+                <a id="lnkLogout" href="@appLogoutUrl">Logout</a>
+            </li>
+        </ul>
+    </text>
+}

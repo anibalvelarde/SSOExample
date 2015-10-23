@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C4D8169F-C30C-46E6-85AD-9C6A5F9397D2}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSOExtJSApp</RootNamespace>
+    <AssemblyName>SSOExtJSApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include=".sencha\app\app.defaults.json" />
+    <Content Include=".sencha\app\build.properties" />
+    <Content Include=".sencha\app\codegen.json" />
+    <Content Include=".sencha\app\cordova.defaults.properties" />
+    <Content Include=".sencha\app\defaults.properties" />
+    <Content Include=".sencha\app\development.defaults.properties" />
+    <Content Include=".sencha\app\development.properties" />
+    <Content Include=".sencha\app\ext.properties" />
+    <Content Include=".sencha\app\native.defaults.properties" />
+    <Content Include=".sencha\app\native.properties" />
+    <Content Include=".sencha\app\package.defaults.properties" />
+    <Content Include=".sencha\app\package.properties" />
+    <Content Include=".sencha\app\phonegap.defaults.properties" />
+    <Content Include=".sencha\app\production.defaults.properties" />
+    <Content Include=".sencha\app\production.properties" />
+    <Content Include=".sencha\app\sencha.cfg" />
+    <Content Include=".sencha\app\testing.defaults.properties" />
+    <Content Include=".sencha\app\testing.properties" />
+    <Content Include=".sencha\workspace\sencha.cfg" />
+    <Content Include="app.json" />
+    <Content Include="app\model\Readme.md" />
+    <Content Include="app\proxy\base\ArbtWebApiProxy.js" />
+    <Content Include="app\Readme.md" />
+    <Content Include="app\store\Readme.md" />
+    <Content Include="app\view\cedents\Cedents.js" />
+    <Content Include="app\view\cedents\CedentsController.js" />
+    <Content Include="app\view\cedents\CedentsModel.js" />
+    <Content Include="app\view\cedents\CedentsStore.js" />
+    <Content Include="app\view\securityApi\SecurityApi.js" />
+    <Content Include="app\view\securityApi\SecurityApiController.js" />
+    <Content Include="app\view\securityApi\SecurityApiModel.js" />
+    <Content Include="app\view\securityApi\SecurityApiStore.js" />
+    <Content Include="app\view\userInfo\UserInfo.js" />
+    <Content Include="app\view\userInfo\UserInfoController.js" />
+    <Content Include="app\view\userInfo\UserInfoModel.js" />
+    <Content Include="bootstrap.json" />
+    <Content Include="packages\Aon.Arbt.Security.OAuth\src\Main.js" />
+    <Content Include="packages\Aon.Arbt.Security.OAuth\src\Proxy.js" />
+    <Content Include="Readme.md" />
+    <Content Include="resources\images\logo.png" />
+    <Content Include="resources\Readme.md" />
+    <Content Include="sass\config.rb" />
+    <Content Include="sass\Readme.md" />
+    <Content Include="sass\src\view\main\Main.scss" />
+    <Content Include="packages\repositories.config" />
+    <Content Include="packages\Aon.Arbt.Security.OAuth\src\Readme.md" />
+    <Content Include="packages\Aon.Arbt.Security.OAuth\package.json" />
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".sencha\app\Boot.js" />
+    <Content Include=".sencha\app\bootstrap-impl.xml" />
+    <Content Include=".sencha\app\build-impl.xml" />
+    <Content Include=".sencha\app\cordova-impl.xml" />
+    <Content Include=".sencha\app\find-cmd-impl.xml" />
+    <Content Include=".sencha\app\init-impl.xml" />
+    <Content Include=".sencha\app\js-impl.xml" />
+    <Content Include=".sencha\app\Microloader.js" />
+    <Content Include=".sencha\app\microloader\development.js" />
+    <Content Include=".sencha\app\microloader\production.js" />
+    <Content Include=".sencha\app\microloader\testing.js" />
+    <Content Include=".sencha\app\packager-impl.xml" />
+    <Content Include=".sencha\app\page-impl.xml" />
+    <Content Include=".sencha\app\phonegap-impl.xml" />
+    <Content Include=".sencha\app\plugin.xml" />
+    <Content Include=".sencha\app\refresh-impl.xml" />
+    <Content Include=".sencha\app\resolve-impl.xml" />
+    <Content Include=".sencha\app\resources-impl.xml" />
+    <Content Include=".sencha\app\sass-impl.xml" />
+    <Content Include=".sencha\app\slice-impl.xml" />
+    <Content Include=".sencha\app\watch-impl.xml" />
+    <Content Include=".sencha\workspace\plugin.xml" />
+    <Content Include="app.js" />
+    <Content Include="app\Application.js" />
+    <Content Include="app\view\main\Main.js" />
+    <Content Include="app\view\main\MainController.js" />
+    <Content Include="app\view\main\MainModel.js" />
+    <Content Include="bootstrap.css" />
+    <Content Include="bootstrap.js" />
+    <Content Include="build.xml" />
+    <Content Include="index.html" />
+    <Content Include="sass\example\bootstrap.css" />
+    <Content Include="sass\example\custom.js" />
+    <Content Include="sass\example\render.js" />
+    <Content Include="sass\example\theme.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="overrides\" />
+    <Folder Include="sass\etc\" />
+    <Folder Include="sass\var\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>44209</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:44209/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('$(SolutionDir)\.nuget\NuGet.targets')" Text="$([System.String]::Format('$(ErrorText)', '$(SolutionDir)\.nuget\NuGet.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

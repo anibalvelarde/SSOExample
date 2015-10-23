@@ -1,0 +1,7 @@
+﻿.swagger-section #header {
+  background-color: black;
+}
+
+ .swagger-section #header form#api_selector .input a#explore {
+     background-color: #0f6ab4;
+ }
